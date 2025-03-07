@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{shop_name}",
+ "creation": "2025-01-16 22:17:57.954420",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_name",
+  "airport",
+  "rent_amount",
+  "start_date",
+  "column_break_zrfo",
+  "tenant_name",
+  "status",
+  "area",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fetch_from": "shop_name.tenant_name",
+   "fieldname": "tenant_name",
+   "fieldtype": "Data",
+   "label": "Tenant Name"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fetch_from": "shop_name.rent_amount",
+   "fieldname": "rent_amount",
+   "fieldtype": "Currency",
+   "label": "Rent Amount"
+  },
+  {
+   "fieldname": "column_break_zrfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shop_name",
+   "fieldtype": "Link",
+   "label": "Shop Name",
+   "options": "Contract Details"
+  },
+  {
+   "fetch_from": "shop_name.airport",
+   "fieldname": "airport",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Airport"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nAvailable\nOccupied"
+  },
+  {
+   "fetch_from": "shop_name.expiry_date",
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fetch_from": "shop_name.start_date",
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-18 11:33:31.741351",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Shop Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "shop_name"
+}

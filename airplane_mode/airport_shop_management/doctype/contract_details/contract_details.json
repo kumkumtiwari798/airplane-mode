@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{shop_name}",
+ "creation": "2025-01-16 22:33:27.473628",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_name",
+  "airport",
+  "start_date",
+  "rent_status",
+  "column_break_vmum",
+  "tenant_name",
+  "rent_amount",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "shop_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shop Name"
+  },
+  {
+   "fieldname": "tenant_name",
+   "fieldtype": "Link",
+   "label": "Tenant Name",
+   "options": "Tenant"
+  },
+  {
+   "fieldname": "rent_amount",
+   "fieldtype": "Data",
+   "label": "Rent Amount"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "rent_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Rent Status",
+   "options": "\nPaid\nUnpaid"
+  },
+  {
+   "fieldname": "airport",
+   "fieldtype": "Link",
+   "label": "Airport",
+   "options": "Airport"
+  },
+  {
+   "fieldname": "column_break_vmum",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-18 11:31:27.856820",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Contract Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "shop_name"
+}

@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status == \"Scheduled\"",
+ "creation": "2025-01-11 12:20:48.882673",
+ "date_changed": "date_of_departure",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Airplane Flight",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Dear Customer, This is a reminder for you that your flight departure tomorrow. Happy Journey!!</p>\n",
+ "message_type": "Markdown",
+ "minutes_offset": 0,
+ "modified": "2025-01-11 12:23:09.294479",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Flight Notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": ""
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Departs in 24 hours!"
+}

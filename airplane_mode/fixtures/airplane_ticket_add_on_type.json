@@ -1,0 +1,51 @@
+[
+ {
+  "description": "Choice of specific seat",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 14:59:59.218678",
+  "name": "Seat Selection"
+ },
+ {
+  "description": "Electrical outlets for devices",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 15:00:54.344176",
+  "name": "Power Outlets and USB Ports"
+ },
+ {
+  "description": " Comfort items for long flights.",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 15:01:38.624604",
+  "name": "Seatback Cushions or Pillow"
+ },
+ {
+  "description": "Movies, TV Shows, Games and Music",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 14:55:47.181688",
+  "name": "In-Flight Entertainment"
+ },
+ {
+  "description": "Pets travel in the cabin with passengers",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 15:03:38.583893",
+  "name": "Pet Transport Services"
+ },
+ {
+  "description": "Pre-ordering or complimentary meals",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 15:01:13.615296",
+  "name": "Meals and Snacks"
+ },
+ {
+  "description": "In-flight internet access",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-01-08 14:59:39.005646",
+  "name": "In-Flight Wi-Fi"
+ }
+]
